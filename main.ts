@@ -1,7 +1,7 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
  * Created by: Ernest
- * Created on: Sep 2023
+ * Created on: Oct 2023
  * This program clicks cookies
 */
 
@@ -11,7 +11,7 @@ basic.showIcon(IconNames.Happy)
 // Number of cookies clicked variable
 let cookiesClicked = 0
 
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   cookiesClicked = cookiesClicked + 1
   basic.showNumber(cookiesClicked)
 })
